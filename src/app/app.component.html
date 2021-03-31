@@ -1,0 +1,5 @@
+<input [(ngModel)]="name" trim />
+<select [(ngModel)]="language">
+  <option *ngFor="let l of languages" [value]="l">{{ l }}</option>
+</select>
+{{ name | hello:language }}
