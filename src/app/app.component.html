@@ -3,3 +3,5 @@
   <option *ngFor="let l of languages" [value]="l">{{ l }}</option>
 </select>
 {{ name | hello:language }}
+
+Public Ip is {{ publicIp | async }}

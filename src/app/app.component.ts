@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { Observable } from "rxjs";
 import { PublicIpService } from "./public-ip.service";
 
 @Component({
@@ -11,10 +12,11 @@ export class AppComponent implements OnInit {
   name: string = 'Luca';
   language: 'en' | 'it' = 'en';
   languages = ['en', 'it'];
+  publicIp: Observable<string>;
 
-  constructor(private publicIp: PublicIpService) {}
+  constructor(private publicIpService: PublicIpService) {}
 
   ngOnInit() {
-    this.publicIp.get().subscribe(console.log);
+    this.publicIp = this.publicIpService.get();
   }
 }
