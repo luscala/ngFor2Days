@@ -9,6 +9,7 @@ The example project can be [edited on StackBlitz ⚡️](https://stackblitz.com/
 2. Move to the ["What is Angular?"](https://angular.io/guide/what-is-angular) and start discussing about the framework.
 
 ## Setup
+
 It's time to setup the development environment!
 
   1. Install Node.js and a code editor.
@@ -21,6 +22,5 @@ It's time to setup the development environment!
   ng new my-app
   ```
   4. Run `ng serve` and open the browser on `http://localhost:4200`: you'll see your first Angular application!
-
 
 You can also follow [this document](https://angular.io/guide/setup-local).
