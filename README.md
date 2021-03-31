@@ -7,7 +7,9 @@ The example project can be [edited on StackBlitz ⚡️](https://stackblitz.com/
 
 1. Navigate to [angular.io](https://angular.io/), just to present the argument.
 2. Move to the ["What is Angular?"](https://angular.io/guide/what-is-angular) and start discussing about the framework.
-3. Right now, it's time to setup the development environment!
+
+## Setup
+It's time to setup the development environment!
   1. Install Node.js and a code editor.
   2. Install Angular CLI globally.
   ```bash
