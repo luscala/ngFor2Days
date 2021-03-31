@@ -10,6 +10,7 @@ The example project can be [edited on StackBlitz ⚡️](https://stackblitz.com/
 
 ## Setup
 It's time to setup the development environment!
+
   1. Install Node.js and a code editor.
   2. Install Angular CLI globally.
   ```bash
@@ -19,5 +20,6 @@ It's time to setup the development environment!
   ```bash
   ng new my-app
   ```
-  4. Run `ng serve` and open the browser on `http://localhost:4200`: you'll see your first Angular application! 
+  4. Run `ng serve` and open the browser on `http://localhost:4200`: you'll see your first Angular application!
+
 You can also follow [this document](https://angular.io/guide/setup-local).
