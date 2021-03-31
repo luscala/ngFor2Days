@@ -3,6 +3,10 @@
 It's a small set of notes for a two-days crash course on Angular.
 The example project can be [edited on StackBlitz ⚡️](https://stackblitz.com/edit/ngfor2days).
 
+## Prerequisites
+
+Angular is build in TypeScript. Give it a quick look before proceeding.
+
 ## Intro
 
 1. Navigate to [angular.io](https://angular.io/), just to present the argument.

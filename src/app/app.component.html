@@ -4,4 +4,9 @@
 </select>
 {{ name | hello:language }}
 
+<br>
 Public Ip is {{ publicIp | async }}
+
+<br>
+<input [ngModel]="color" (ngModelChange)="color = $event" />
+{{ color }}

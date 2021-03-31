@@ -14,6 +14,8 @@ export class AppComponent implements OnInit {
   languages = ['en', 'it'];
   publicIp: Observable<string>;
 
+  color: string;
+
   constructor(private publicIpService: PublicIpService) {}
 
   ngOnInit() {
