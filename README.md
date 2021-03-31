@@ -5,7 +5,7 @@ The example project can be [edited on StackBlitz ⚡️](https://stackblitz.com/
 
 ## Prerequisites
 
-Angular is build in TypeScript. Give it a quick look before proceeding.
+Angular is build in [TypeScript](https://www.typescriptlang.org/). Give it a quick look before proceeding.
 
 ## Intro
 
