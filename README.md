@@ -177,4 +177,6 @@ Validators can be composed. `myNumber` is a control with initial value set to 1,
 
 FormControls (but also FormGroup and FormArray) provides two observables: `statusChanges`and `valueChanges`. When subscribed, they notify us about status and value changes. In this way we can react and adapt our application behavior accordingly.
 
+## Routing
 
+Angular provides a `RouteModule` which helps in defining different scenarios for each route we want for the application. Usually, routes are meant for different functionalities of the application. See [In-app navigation: routing to views](https://angular.io/guide/router) and the example project.
