@@ -10,3 +10,7 @@ Public Ip is {{ publicIp | async }}
 <br>
 <input [ngModel]="color" (ngModelChange)="color = $event" />
 {{ color }}
+
+<hr>
+<h1>Router Outlet below</h1>
+<router-outlet></router-outlet>
